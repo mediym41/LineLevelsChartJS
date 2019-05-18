@@ -1,5 +1,10 @@
 # Level line chart
 
+## Example
+
+![Screenshot](example1.png)
+![Screenshot](example2.png)
+
 ## Setup
 
 - Add file "LevelLinesChart.js" (LineLevelsChartJS/scripts/plugins/LevelLinesChart.js) to your project
@@ -23,7 +28,7 @@
             x: [-7, 7],
             y: [-7, 7]
         },
-        data: data
+        data: [[{x: 0, y: 0}, {x: 1, y: 2}, {x: 1, y: -2}, {x: 0, y: 0}], [{x: 1, y: 1}, {x: 2, y: 2}]]
       });
     </script>
   </body>
