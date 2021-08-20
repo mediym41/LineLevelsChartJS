@@ -1,4 +1,3 @@
-
 const circleFunction = (x, r) => {
 	const result = Math.sqrt(r*r - x*x);
 
@@ -28,7 +27,7 @@ for(let r = 0; r <= 5; r++) {
 let chartCanvas = document.getElementById("chart");
 let ctx = chartCanvas.getContext('2d');
 
-const chart = new Chart228(ctx, {
+const chart = new Chart(ctx, {
   limits: {
       x: [-7, 7],
       y: [-7, 7]

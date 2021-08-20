@@ -1,4 +1,4 @@
-class Chart228 {
+class Chart {
 	constructor(ctx, data) {
 		this.ctx = ctx;
 		this.debug = false;
